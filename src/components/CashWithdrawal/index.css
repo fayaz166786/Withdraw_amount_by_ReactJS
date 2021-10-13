@@ -1,0 +1,70 @@
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  min-width: 50%;
+  padding: 40px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-container {
+  display: flex;
+}
+
+.logo {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #7c3aed;
+  padding: 20px;
+  height: 70px;
+  width: 70px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  margin-right: 15px;
+  text-align: center;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #c7d2fe;
+  font-weight: 500;
+  align-self: center;
+}
+.balance-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #585076;
+  font-weight: 500;
+}
+.bal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.size {
+  font-size: 16px;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 38px;
+  color: #d4d2db;
+  font-weight: 500;
+}
+.withdraw {
+  font-size: 30px;
+}
+.ul-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  min-width: 80%;
+  height: 100%;
+}
